@@ -2905,31 +2905,7 @@
             ]
         ]
     },
-    {
-        "id": "981e6d15b9fdd4c2",
-        "type": "http request",
-        "z": "5d4523669cccfc52",
-        "g": "8b95b988c2c27b4e",
-        "name": "issueToken",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "https://projectagamjot-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/c052feb6-d348-43d5-b990-c18e089409f3/classify/iterations/Baby_crying_Iteration1/image",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 550,
-        "y": 1940,
-        "wires": [
-            [
-                "891c8cba2a0e5de0"
-            ]
-        ]
-    },
+
     {
         "id": "891c8cba2a0e5de0",
         "type": "function",
@@ -2975,37 +2951,6 @@
             [
                 "6e899589b12387c4"
             ]
-        ]
-    },
-    {
-        "id": "6e899589b12387c4",
-        "type": "azureiotdevice",
-        "z": "5d4523669cccfc52",
-        "deviceid": "ri9jq5ik20",
-        "pnpModelid": "",
-        "connectiontype": "dps",
-        "authenticationmethod": "sas",
-        "iothub": "tcss573-project.azure-devices.net",
-        "isIotcentral": true,
-        "scopeid": "0ne00C36F16",
-        "enrollmenttype": "device",
-        "saskey": "8+X7e0RHTP1WaorLJaXboNNOLnwLbQHBwV7aypf0KxM=",
-        "certname": "",
-        "keyname": "",
-        "passphrase": "",
-        "protocol": "mqtt",
-        "retryInterval": 10,
-        "methods": [],
-        "DPSpayload": "",
-        "gatewayHostname": "",
-        "caname": "",
-        "cert": "",
-        "key": "",
-        "ca": "",
-        "x": 1490,
-        "y": 420,
-        "wires": [
-            []
         ]
     },
     {
